@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B15B9DE0297DCAD100100CC5 /* CodeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B9DDF297DCAD100100CC5 /* CodeList.swift */; };
+		B15B9DE3297DCBCB00100CC5 /* RunAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B9DE2297DCBCB00100CC5 /* RunAPI.swift */; };
+		B15B9DE5297DE14600100CC5 /* OutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B9DE4297DE14600100CC5 /* OutputView.swift */; };
 		B1F81FE5297D46E500F7F78F /* codexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F81FE4297D46E500F7F78F /* codexApp.swift */; };
 		B1F81FE7297D46E500F7F78F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F81FE6297D46E500F7F78F /* ContentView.swift */; };
-		B1F81FE9297D46E600F7F78F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F81FE8297D46E600F7F78F /* Assets.xcassets */; };
-		B1F81FED297D46E600F7F78F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F81FEC297D46E600F7F78F /* Preview Assets.xcassets */; };
 		B1F81FF7297D46E600F7F78F /* codexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F81FF6297D46E600F7F78F /* codexTests.swift */; };
 		B1F82001297D46E600F7F78F /* codexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F82000297D46E600F7F78F /* codexUITests.swift */; };
 		B1F82003297D46E600F7F78F /* codexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F82002297D46E600F7F78F /* codexUITestsLaunchTests.swift */; };
+		B1F82010297D47D900F7F78F /* ExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8200F297D47D900F7F78F /* ExplorerView.swift */; };
+		B1F82013297D485E00F7F78F /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F82012297D485E00F7F78F /* AppView.swift */; };
+		B1F82018297D580200F7F78F /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F82017297D580200F7F78F /* EditorView.swift */; };
+		B1F8201A297D5E7600F7F78F /* NewBit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F82019297D5E7600F7F78F /* NewBit.swift */; };
+		B1F9F9A6297D8DA3007CF7E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F9F9A5297D8DA3007CF7E9 /* Images.xcassets */; };
+		B1F9F9A9297D91B5007CF7E9 /* CodeEditor in Frameworks */ = {isa = PBXBuildFile; productRef = B1F9F9A8297D91B5007CF7E9 /* CodeEditor */; };
+		B1F9F9B7297DC7A8007CF7E9 /* Highlightr in Frameworks */ = {isa = PBXBuildFile; productRef = B1F9F9B6297DC7A8007CF7E9 /* Highlightr */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +42,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B15B9DDF297DCAD100100CC5 /* CodeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeList.swift; sourceTree = "<group>"; };
+		B15B9DE2297DCBCB00100CC5 /* RunAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunAPI.swift; sourceTree = "<group>"; };
+		B15B9DE4297DE14600100CC5 /* OutputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputView.swift; sourceTree = "<group>"; };
 		B1F81FE1297D46E500F7F78F /* codex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F81FE4297D46E500F7F78F /* codexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codexApp.swift; sourceTree = "<group>"; };
 		B1F81FE6297D46E500F7F78F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B1F81FE8297D46E600F7F78F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1F81FEA297D46E600F7F78F /* codex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = codex.entitlements; sourceTree = "<group>"; };
-		B1F81FEC297D46E600F7F78F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B1F81FF2297D46E600F7F78F /* codexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F81FF6297D46E600F7F78F /* codexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codexTests.swift; sourceTree = "<group>"; };
 		B1F81FFC297D46E600F7F78F /* codexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F82000297D46E600F7F78F /* codexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codexUITests.swift; sourceTree = "<group>"; };
 		B1F82002297D46E600F7F78F /* codexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1F8200F297D47D900F7F78F /* ExplorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerView.swift; sourceTree = "<group>"; };
+		B1F82012297D485E00F7F78F /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		B1F82017297D580200F7F78F /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		B1F82019297D5E7600F7F78F /* NewBit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBit.swift; sourceTree = "<group>"; };
+		B1F9F9A5297D8DA3007CF7E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F9F9B7297DC7A8007CF7E9 /* Highlightr in Frameworks */,
+				B1F9F9A9297D91B5007CF7E9 /* CodeEditor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B15B9DE1297DCAE100100CC5 /* AppData */ = {
+			isa = PBXGroup;
+			children = (
+				B15B9DDF297DCAD100100CC5 /* CodeList.swift */,
+				B15B9DE2297DCBCB00100CC5 /* RunAPI.swift */,
+			);
+			name = AppData;
+			path = Views/AppData;
+			sourceTree = "<group>";
+		};
 		B1F81FD8297D46E500F7F78F = {
 			isa = PBXGroup;
 			children = (
@@ -96,20 +122,13 @@
 			isa = PBXGroup;
 			children = (
 				B1F81FE4297D46E500F7F78F /* codexApp.swift */,
-				B1F81FE6297D46E500F7F78F /* ContentView.swift */,
-				B1F81FE8297D46E600F7F78F /* Assets.xcassets */,
 				B1F81FEA297D46E600F7F78F /* codex.entitlements */,
-				B1F81FEB297D46E600F7F78F /* Preview Content */,
+				B1F81FE6297D46E500F7F78F /* ContentView.swift */,
+				B1F9F9A5297D8DA3007CF7E9 /* Images.xcassets */,
+				B15B9DE1297DCAE100100CC5 /* AppData */,
+				B1F82011297D481000F7F78F /* Views */,
 			);
 			path = codex;
-			sourceTree = "<group>";
-		};
-		B1F81FEB297D46E600F7F78F /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				B1F81FEC297D46E600F7F78F /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		B1F81FF5297D46E600F7F78F /* codexTests */ = {
@@ -129,6 +148,18 @@
 			path = codexUITests;
 			sourceTree = "<group>";
 		};
+		B1F82011297D481000F7F78F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1F8200F297D47D900F7F78F /* ExplorerView.swift */,
+				B1F82012297D485E00F7F78F /* AppView.swift */,
+				B1F82017297D580200F7F78F /* EditorView.swift */,
+				B1F82019297D5E7600F7F78F /* NewBit.swift */,
+				B15B9DE4297DE14600100CC5 /* OutputView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +176,10 @@
 			dependencies = (
 			);
 			name = codex;
+			packageProductDependencies = (
+				B1F9F9A8297D91B5007CF7E9 /* CodeEditor */,
+				B1F9F9B6297DC7A8007CF7E9 /* Highlightr */,
+			);
 			productName = codex;
 			productReference = B1F81FE1297D46E500F7F78F /* codex.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +252,13 @@
 				Base,
 			);
 			mainGroup = B1F81FD8297D46E500F7F78F;
+			packageReferences = (
+				B1F9F9A7297D91B5007CF7E9 /* XCRemoteSwiftPackageReference "CodeEditor" */,
+				B1F9F9AA297DC007007CF7E9 /* XCRemoteSwiftPackageReference "CodeViewer" */,
+				B1F9F9AD297DC388007CF7E9 /* XCRemoteSwiftPackageReference "CodeEditorView" */,
+				B1F9F9B0297DC5C3007CF7E9 /* XCRemoteSwiftPackageReference "SwiftyMonaco" */,
+				B1F9F9B5297DC7A8007CF7E9 /* XCRemoteSwiftPackageReference "Highlightr" */,
+			);
 			productRefGroup = B1F81FE2297D46E500F7F78F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,8 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1F81FED297D46E600F7F78F /* Preview Assets.xcassets in Resources */,
-				B1F81FE9297D46E600F7F78F /* Assets.xcassets in Resources */,
+				B1F9F9A6297D8DA3007CF7E9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F82013297D485E00F7F78F /* AppView.swift in Sources */,
 				B1F81FE7297D46E500F7F78F /* ContentView.swift in Sources */,
+				B1F82018297D580200F7F78F /* EditorView.swift in Sources */,
 				B1F81FE5297D46E500F7F78F /* codexApp.swift in Sources */,
+				B1F82010297D47D900F7F78F /* ExplorerView.swift in Sources */,
+				B15B9DE0297DCAD100100CC5 /* CodeList.swift in Sources */,
+				B15B9DE3297DCBCB00100CC5 /* RunAPI.swift in Sources */,
+				B1F8201A297D5E7600F7F78F /* NewBit.swift in Sources */,
+				B15B9DE5297DE14600100CC5 /* OutputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,8 +475,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -465,8 +513,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -612,6 +660,62 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B1F9F9A7297D91B5007CF7E9 /* XCRemoteSwiftPackageReference "CodeEditor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZeeZide/CodeEditor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		B1F9F9AA297DC007007CF7E9 /* XCRemoteSwiftPackageReference "CodeViewer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dwarvesf/CodeViewer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		B1F9F9AD297DC388007CF7E9 /* XCRemoteSwiftPackageReference "CodeEditorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mchakravarty/CodeEditorView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		B1F9F9B0297DC5C3007CF7E9 /* XCRemoteSwiftPackageReference "SwiftyMonaco" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ICToolkit/SwiftyMonaco";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B1F9F9B5297DC7A8007CF7E9 /* XCRemoteSwiftPackageReference "Highlightr" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raspu/Highlightr";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1F9F9A8297D91B5007CF7E9 /* CodeEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1F9F9A7297D91B5007CF7E9 /* XCRemoteSwiftPackageReference "CodeEditor" */;
+			productName = CodeEditor;
+		};
+		B1F9F9B6297DC7A8007CF7E9 /* Highlightr */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1F9F9B5297DC7A8007CF7E9 /* XCRemoteSwiftPackageReference "Highlightr" */;
+			productName = Highlightr;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B1F81FD9297D46E500F7F78F /* Project object */;
 }

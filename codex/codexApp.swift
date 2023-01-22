@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct codexApp: App {
+    @State var codeList = CodeList()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(codeList)
         }
     }
 }
