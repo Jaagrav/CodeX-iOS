@@ -54,7 +54,7 @@ struct NewBit: View {
         .padding(.horizontal, 8)
         
         Button {
-            var supportedLanguage = codeList.supportedLanguages[newBitLanguageIndex]
+            let supportedLanguage = codeList.supportedLanguages[newBitLanguageIndex]
             
             if newBitName != "" {
                 codeList.createNewCodeBit(newBitName, supportedLanguage)

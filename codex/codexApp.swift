@@ -13,8 +13,7 @@ struct codexApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(codeList)
+            ContentView().environmentObject(codeList)
         }
     }
 }

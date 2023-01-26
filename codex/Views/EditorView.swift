@@ -53,6 +53,7 @@ struct EditorView: View {
     func runCode() {
         if code != "" {
             codexApi.runCode(code, language, "")
+            codeList.storeInLS()
             showOutput.toggle()
         }
     }
@@ -62,6 +63,7 @@ struct EditorView: View {
             CodeEditor(source: $code, language: getEditorLanguage(language), theme: CodeEditor.ThemeName.default)
                 .onChange(of: code) { newCode in
                     codeList.list[bitIndex].code = newCode
+                    codeList.storeInLS()
                 }
             HStack {
                 Spacer()
@@ -80,6 +82,7 @@ struct EditorView: View {
                     }
                     codeList.list[bitIndex].languageName = codeList.supportedLanguages[supportedLanguageIndex].title
                     codeList.list[bitIndex].language = changedLanguage
+                    codeList.storeInLS()
                 })
                 .pickerStyle(MenuPickerStyle())
                 

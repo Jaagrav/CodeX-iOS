@@ -40,9 +40,8 @@ struct ExplorerView: View {
                 RoundedRectangle(cornerRadius: 10)
             )
             .padding(.horizontal, 16)
-            .padding(.bottom, 16)
         
-        ScrollView {
+        List {
             ForEach(codeList.list) { bit in
                 NavigationLink {
                     EditorView(bitId: bit.id)
@@ -67,17 +66,20 @@ struct ExplorerView: View {
                             .frame(width: 50, height: 50)
                             .font(.largeTitle)
                     }
-                    .padding(12)
-                    .background(Color(UIColor.systemGray6))
-                    .clipShape(
-                        RoundedRectangle(cornerRadius: 10)
-                    )
-                    .foregroundColor(.primary)
-                    .padding(.horizontal, 16)
-                    .padding(.bottom, 10)
+                    .swipeActions(edge: .trailing, allowsFullSwipe: false) {
+                        Button {
+                            codeList.removeCodeBit(bit.id)
+                        } label: {
+                            Image(systemName: "trash.fill")
+                        }
+                        .tint(.red)
+                    }
+                    .padding(.vertical, 6)
                 }
             }
         }
+        .listStyle(.plain)
+        .scrollContentBackground(.hidden)
         Spacer()
     }
 }
